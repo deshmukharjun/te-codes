@@ -1,0 +1,91 @@
+/* Media queries for responsiveness */
+
+/* Small screens (phones, less than 600px) */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    label {
+        font-size: 1em;
+    }
+
+    input {
+        padding: 8px;
+        font-size: 1em;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    table {
+        font-size: 0.8em;
+    }
+}
+
+/* Medium screens (tablets, 600px to 1200px) */
+@media (min-width: 600px) and (max-width: 1200px) {
+    .container {
+        width: 70%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    label {
+        font-size: 1.1em;
+    }
+
+    input {
+        padding: 10px;
+        font-size: 1.1em;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 1.1em;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+}
+
+/* Large screens (desktops, 1200px and above) */
+@media (min-width: 1200px) {
+    .container {
+        width: 50%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    label {
+        font-size: 1.2em;
+    }
+
+    input {
+        padding: 12px;
+        font-size: 1.2em;
+    }
+
+    button {
+        padding: 15px;
+        font-size: 1.2em;
+    }
+
+    table {
+        font-size: 1em;
+    }
+}
